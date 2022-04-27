@@ -2,7 +2,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
 }
 
 .black_head {
@@ -21,8 +20,37 @@ header {
     margin-top: 120px;
 }
 
-.row figure img {
+.row .thumb-logo img {
     max-width: 100%;
     border-radius: 15px;
     margin-top: 20px;
 }
+
+.ps5 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.ps5 h6 {
+    color: deepskyblue;
+    margin-bottom: -5px;
+}
+
+.ps5 p {
+    margin-top: 10px;
+    color: gray;
+}
+
+.ps5-logo img {
+    max-width: 100%;
+}
+
+.ps5_accessories img{
+    max-width: 100%;
+}
+
+.ps5_accessories {
+    text-align: center;
+    /* border-bottom: solid 2px blue; */
+}
+
