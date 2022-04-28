@@ -25,10 +25,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     margin-top: 120px;
 }
 
-/* .jumbo .card img{
-    width: 100%;
-    object-fit: contain;
-} */
+.card {
+    border: none;
+    border-radius: 0;
+}
 
 .card-img-overlay {
     margin-top: 150px;
@@ -135,8 +135,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .logo_games_ps4 {
     width: 100%;
-    /* max-height: 400px;
-    object-fit: contain; */
+    max-height: 400px;
+    object-fit: contain;
 }
 
 .desc_ps4_plus {
@@ -188,4 +188,45 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 /* social media */
 .logo_social img  {
     width: 100%;
+}
+
+/* footer */
+.bg_footer {
+    background-color: rgb(0, 67, 156);
+}
+
+.logo_ps_container {
+    margin-top: 30px;
+    margin-left: 20px
+}
+
+.globe_svg img {
+    width: 20px;
+}
+
+.globe_svg a {
+    text-decoration: none;
+    color: white;
+}
+
+.list_foot {
+    margin-top: 30px;
+}
+
+.list_foot ul li {
+    list-style-type: none;
+}
+
+.list_foot a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot_credit {
+    color: white;
+    margin-left: 20px;
+}
+
+.foot_credit img {
+    width: 100px;
 }
