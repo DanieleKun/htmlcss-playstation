@@ -2,6 +2,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 500;
 }
 
 .black_head {
@@ -15,9 +16,28 @@ header {
     height: auto;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    margin-top: 6px;
+}
+
+.jumbo {
+    max-height: 450px;
+    margin-top: 120px;
+}
+
 .jumbo img{
     width: 100%;
-    margin-top: 120px;
+    object-fit: contain;
+}
+
+.card-img-overlay {
+    margin-top: 100px;
+    width: 40%;
+}
+
+.card-img-overlay img {
+    max-width: 200px;
+    margin-bottom: 20px;
 }
 
 .row .thumb-logo img {
