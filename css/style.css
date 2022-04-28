@@ -20,6 +20,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     margin-top: 6px;
 }
 
+/* jumbotron */
 .jumbo {
     max-height: 450px;
     margin-top: 120px;
@@ -40,6 +41,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     margin-bottom: 20px;
 }
 
+/* slideshow jumbo */
 .row .thumb-logo img {
     max-width: 100%;
     border-radius: 15px;
@@ -74,3 +76,20 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     /* border-bottom: solid 2px blue; */
 }
 
+.second_jumbotron {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.second_jumbo_container {
+    margin: 0;
+}
+
+/* second jumbo */
+.second_jumbo-card {
+    margin-top: 20px;
+}
+
+.title_relaese {
+    margin: 20px 0;
+}
