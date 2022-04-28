@@ -157,3 +157,31 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     background-color: lightgray;
     border-radius: 20px;
 }
+
+/* news playstation store */
+.section_title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section_title h6 {
+    color: grey;
+    margin: 30px 0;
+}
+
+.news_logo img {
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: 30px;
+}
+
+/* playstation now section */
+.bg_ps_now {
+    background-color: rgb(22, 28, 59);
+    color: white;
+}
+
+.bg_ps_now .btn-primary {
+    color: black;
+    background-color: white;
+}
