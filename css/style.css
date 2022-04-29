@@ -16,8 +16,19 @@ header {
     height: auto;
 }
 
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+/* navbar */
+nav.navbar.navbar-expand-lg.navbar-light.bg-white {
     margin-top: 6px;
+}
+
+.lens img {
+    width: 40px;
+}
+
+.btn-dark {
+    border-radius: 20px;
+    background-color: rgb(54, 54, 54);
+    margin: 0 20px;
 }
 
 /* jumbotron */
@@ -39,6 +50,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     max-width: 200px;
     margin-bottom: 20px;
 }
+
+
+
 
 /* slideshow jumbo */
 .row .thumb-logo img {
@@ -66,7 +80,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     max-width: 100%;
 }
 
-.ps5_accessories img{
+.ps5_accessories img {
     max-width: 100%;
 }
 
@@ -186,7 +200,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 /* social media */
-.logo_social img  {
+.logo_social img {
     width: 100%;
     margin: 60px 0;
 }
