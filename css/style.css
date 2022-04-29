@@ -1,3 +1,9 @@
+/* IMPORTANT */
+/* .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+} */
+
 header {
     position: fixed;
     top: 0;
@@ -31,26 +37,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
     margin: 0 20px;
 }
 
-/* jumbotron */
-/* .jumbo {
-    margin-top: 120px;
-}
-
-.card {
-    border: none;
-    border-radius: 0;
-}
-
-.card-img-overlay {
-    margin-top: 150px;
-    width: 40%;
-}
-
-.card-img-overlay img {
-    max-width: 200px;
-    margin-bottom: 20px;
-} */
-
 
 .jumbo {
     position: relative;
@@ -80,14 +66,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
     height: 100px;
     object-fit: contain;
 }
-
-.second_jumbo img {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
-}
-
-
 
 
 /* slideshow jumbo */
@@ -120,6 +98,23 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
     max-width: 100%;
 }
 
+.underline-logo{
+    border-bottom: solid 2px cornflowerblue;
+}
+
+/* filter */
+.filter_logo {
+    filter: opacity(0.4);
+}
+
+.filter_logo {
+    transition: all 1s;
+}
+.filter_logo:hover{
+    filter: none;
+}
+
+
 .ps5_accessories {
     text-align: center;
     /* border-bottom: solid 2px blue; */
@@ -135,9 +130,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 }
 
 /* second jumbo */
-/* .second_jumbo-card {
-    margin-top: 20px;
-} */
+.second_jumbo img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
 
 .title_relaese {
     margin: 20px 0;
