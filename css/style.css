@@ -75,6 +75,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
     margin-top: 20px;
 }
 
+.thumb-logo:hover {
+    transform: translateY(-10px);
+}
+
 .ps5 {
     text-align: center;
     margin: 40px 0;
