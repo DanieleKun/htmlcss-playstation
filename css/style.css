@@ -37,7 +37,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
     margin: 0 20px;
 }
 
-
 .jumbo {
     position: relative;
 }
@@ -192,6 +191,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 
 .desc_ps4_plus {
     margin-left: 40px;
+    margin-bottom: 30px;
 }
 
 .desc_ps4_plus img {
@@ -282,3 +282,15 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 .foot_credit img {
     width: 100px;
 }
+
+
+
+
+/* My media querie */
+@media screen and (max-width:768px) {
+
+    .logo_games_ps4{
+        display: none;
+    }
+  
+  }
