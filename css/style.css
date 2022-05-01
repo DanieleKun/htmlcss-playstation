@@ -68,6 +68,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
     margin-top: 20px;
 }
 
+.thumb-logo {
+    transition: all 0.4s;
+}
+
 .thumb-logo:hover {
     transform: translateY(-10px);
 }
